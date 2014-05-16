@@ -1,11 +1,13 @@
+package sorting;
+
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
 
-public class CountInversions
+public class CountInversions 
 {
-	/* Counting inversions in merge sort */
+	
 	static long sort(Integer[] arr, int low, int high)
 	{
 		long totalInv=0;
