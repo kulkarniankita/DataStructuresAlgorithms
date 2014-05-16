@@ -11,4 +11,6 @@ The following are the algorithms:<br>
 - Binary Tree
 - Binary Search Tree
 - Balanced Binary Tree
+- MergeSort
+- Counting Inversions in Merge Sort
 
