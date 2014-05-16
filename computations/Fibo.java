@@ -1,5 +1,7 @@
 package computations;
 
+import java.math.BigInteger;
+
 public class Fibo 
 {
 	/*
@@ -8,15 +10,17 @@ public class Fibo
 
 	public static void fibonacciNumbers(int n)
 	{
-		int first = 0;
-		int second = 1;
+		BigInteger first = BigInteger.valueOf(0);
+		BigInteger second = BigInteger.valueOf(1);
+		
 		if (n == 0) System.out.print(first + "\t");
 	    if (n == 1)  System.out.print(second + "\t");
 	        
-      int result=0;
+	    BigInteger result;
+	    
 	  for(int i=2;i<=n;i++)
 	  { 
-	     result = first + second; 
+	     result = first.add(second); 
 	     System.out.print(result + "\t");
 	     second  = first; 
 	     first = result; 
